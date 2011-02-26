@@ -1,0 +1,49 @@
+{
+   "abstract" : "Cache things using Cache::Memcached::Fast",
+   "author" : [
+      "Marco Fontani <MFONTANI@cpan.org>"
+   ],
+   "dynamic_config" : 0,
+   "generated_by" : "Dist::Zilla version 4.200004, CPAN::Meta::Converter version 2.110550",
+   "license" : [
+      "perl_5"
+   ],
+   "meta-spec" : {
+      "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+      "version" : "2"
+   },
+   "name" : "Dancer-Plugin-MemcachedFast",
+   "prereqs" : {
+      "configure" : {
+         "requires" : {
+            "ExtUtils::MakeMaker" : "6.31"
+         }
+      },
+      "runtime" : {
+         "requires" : {
+            "Cache::Memcached::Fast" : 0,
+            "Dancer::Plugin" : 0
+         }
+      },
+      "test" : {
+         "requires" : {
+            "Dancer" : 0,
+            "Dancer::Test" : 0,
+            "Test::More" : 0
+         }
+      }
+   },
+   "release_status" : "stable",
+   "resources" : {
+      "bugtracker" : {
+         "web" : "https://github.com/mfontani/Dancer-Plugin-MemcachedFast/issues"
+      },
+      "repository" : {
+         "type" : "git",
+         "url" : "git://github.com/mfontani/Dancer-Plugin-MemcachedFast.git",
+         "web" : "https://github.com/mfontani/Dancer-Plugin-MemcachedFast"
+      }
+   },
+   "version" : "0.110570"
+}
+
