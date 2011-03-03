@@ -21,4 +21,4 @@ requires:
 resources:
   bugtracker: https://github.com/mfontani/Dancer-Plugin-MemcachedFast/issues
   repository: git://github.com/mfontani/Dancer-Plugin-MemcachedFast.git
-version: 0.110570
+version: 0.110620

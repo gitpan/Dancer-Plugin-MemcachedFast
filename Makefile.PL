@@ -27,7 +27,7 @@ my %WriteMakefileArgs = (
     'Cache::Memcached::Fast' => '0',
     'Dancer::Plugin' => '0'
   },
-  'VERSION' => '0.110570',
+  'VERSION' => '0.110620',
   'test' => {
     'TESTS' => 't/*.t'
   }
