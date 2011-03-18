@@ -25,9 +25,10 @@ my %WriteMakefileArgs = (
   'NAME' => 'Dancer::Plugin::MemcachedFast',
   'PREREQ_PM' => {
     'Cache::Memcached::Fast' => '0',
+    'Dancer' => '1.2000',
     'Dancer::Plugin' => '0'
   },
-  'VERSION' => '0.110620',
+  'VERSION' => '0.110770',
   'test' => {
     'TESTS' => 't/*.t'
   }

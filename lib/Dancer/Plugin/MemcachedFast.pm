@@ -1,6 +1,6 @@
 package Dancer::Plugin::MemcachedFast;
 BEGIN {
-  $Dancer::Plugin::MemcachedFast::VERSION = '0.110620';
+  $Dancer::Plugin::MemcachedFast::VERSION = '0.110770';
 }
 use strict;
 use warnings;
