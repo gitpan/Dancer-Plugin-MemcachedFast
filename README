@@ -1,7 +1,7 @@
 
 
 This archive contains the distribution Dancer-Plugin-MemcachedFast,
-version 0.110770:
+version 0.130500:
 
   Cache things using Cache::Memcached::Fast
 

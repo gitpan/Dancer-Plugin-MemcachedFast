@@ -4,33 +4,35 @@ use warnings;
 
 
 
-use ExtUtils::MakeMaker 6.31;
+use ExtUtils::MakeMaker 6.30;
 
 
 
 my %WriteMakefileArgs = (
-  'ABSTRACT' => 'Cache things using Cache::Memcached::Fast',
-  'AUTHOR' => 'Marco Fontani <MFONTANI@cpan.org>',
-  'BUILD_REQUIRES' => {
-    'Dancer' => '0',
-    'Dancer::Test' => '0',
-    'Test::More' => '0'
+  "ABSTRACT" => "Cache things using Cache::Memcached::Fast",
+  "AUTHOR" => "Marco Fontani <MFONTANI\@cpan.org>",
+  "BUILD_REQUIRES" => {
+    "Dancer" => 0,
+    "Dancer::Test" => 0,
+    "Test::More" => 0
   },
-  'CONFIGURE_REQUIRES' => {
-    'ExtUtils::MakeMaker' => '6.31'
+  "CONFIGURE_REQUIRES" => {
+    "ExtUtils::MakeMaker" => "6.30"
   },
-  'DISTNAME' => 'Dancer-Plugin-MemcachedFast',
-  'EXE_FILES' => [],
-  'LICENSE' => 'perl',
-  'NAME' => 'Dancer::Plugin::MemcachedFast',
-  'PREREQ_PM' => {
-    'Cache::Memcached::Fast' => '0',
-    'Dancer' => '1.2000',
-    'Dancer::Plugin' => '0'
+  "DISTNAME" => "Dancer-Plugin-MemcachedFast",
+  "EXE_FILES" => [],
+  "LICENSE" => "perl",
+  "NAME" => "Dancer::Plugin::MemcachedFast",
+  "PREREQ_PM" => {
+    "Cache::Memcached::Fast" => 0,
+    "Dancer" => "1.2000",
+    "Dancer::Plugin" => 0,
+    "strict" => 0,
+    "warnings" => 0
   },
-  'VERSION' => '0.110770',
-  'test' => {
-    'TESTS' => 't/*.t'
+  "VERSION" => "0.130500",
+  "test" => {
+    "TESTS" => "t/*.t"
   }
 );
 

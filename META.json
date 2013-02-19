@@ -4,7 +4,7 @@
       "Marco Fontani <MFONTANI@cpan.org>"
    ],
    "dynamic_config" : 0,
-   "generated_by" : "Dist::Zilla version 4.200004, CPAN::Meta::Converter version 2.110580",
+   "generated_by" : "Dist::Zilla version 4.300028, CPAN::Meta::Converter version 2.120921",
    "license" : [
       "perl_5"
    ],
@@ -16,21 +16,30 @@
    "prereqs" : {
       "configure" : {
          "requires" : {
-            "ExtUtils::MakeMaker" : "6.31"
+            "ExtUtils::MakeMaker" : "6.30"
+         }
+      },
+      "develop" : {
+         "requires" : {
+            "Pod::Coverage::TrustPod" : "0",
+            "Test::Pod" : "1.41",
+            "Test::Pod::Coverage" : "1.08"
          }
       },
       "runtime" : {
          "requires" : {
-            "Cache::Memcached::Fast" : 0,
+            "Cache::Memcached::Fast" : "0",
             "Dancer" : "1.2000",
-            "Dancer::Plugin" : 0
+            "Dancer::Plugin" : "0",
+            "strict" : "0",
+            "warnings" : "0"
          }
       },
       "test" : {
          "requires" : {
-            "Dancer" : 0,
-            "Dancer::Test" : 0,
-            "Test::More" : 0
+            "Dancer" : "0",
+            "Dancer::Test" : "0",
+            "Test::More" : "0"
          }
       }
    },
@@ -45,6 +54,6 @@
          "web" : "https://github.com/mfontani/Dancer-Plugin-MemcachedFast"
       }
    },
-   "version" : "0.110770"
+   "version" : "0.130500"
 }
 
